@@ -39,6 +39,11 @@ img {
     cursor: pointer;
 }
 
+.main_logo {
+    margin-top: 35px;
+    margin-bottom: -32px;
+}
+
 .header {
     float: right;
     margin-top: 10px;
@@ -93,4 +98,28 @@ img {
     float: left;
     padding: 16px;
     cursor: pointer;
+}
+
+#images {
+    color: rgb(71, 129, 253);
+    font-family: Arial, sans-serif;
+    position: absolute;
+    bottom: 465px;
+    right: 508px;
+}
+
+#advanced_search {
+    float: left;
+}
+
+#horizontal_line {
+    color: rgb(204, 44, 44);
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    float: left;
+    padding: 0 45px 25px;
+    border-bottom:1px solid rgb(243, 243, 243);
+    margin-top: -95px;
+    margin-bottom: 20px;
 }
