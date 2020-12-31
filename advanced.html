@@ -15,23 +15,18 @@
         </div>
         <div>
             <div class="container">
-                <div id="horizontal_line">Advanced Search</div>
-                <form class="searchform" action="https://google.com/search">
-                    <h2>Find pages with...</h2>
+                <div id="advanced_header">Advanced Search</div>
+                <hr></hr>
+                <h2>Find pages with...</h2>
+                <form action="https://google.com/search">
+                    <ul>
+                        <li>all these words:<input class="advanced_input" type="text" name="as_q"></li>
+                        <li>this exact word or phrase:<input class="advanced_input" type="text" name="as_epq"></li>
+                        <li>any of these words:<input class="advanced_input" type="text" name="as_oq"></li>
+                        <li>none of these words:<input class="advanced_input" type="text" name="as_eq"></li>
+                    </ul>
                     <div>
-                        all these words:<input type="text" name="as_q">
-                    </div>
-                    <div>
-                        this exact word or phrase:<input type="text" name="as_epq">
-                    </div>
-                    <div>
-                        any of these words:<input type="text" name="as_oq">
-                    </div>
-                    <div>
-                        none of these words:<input type="text" name="as_eq">
-                    </div>
-                    <div>
-                        <input class="submit" type="submit" value="Advanced Search">
+                        <input id="advanced_btn" type="submit" value="Advanced Search">
                     </div>
                 </form>
             </div>
